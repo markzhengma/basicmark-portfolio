@@ -1,4 +1,4 @@
-import { person, social } from "@/resources/content";
+import { person, job } from "@/resources/content";
 import Image from "next/image";
 import { Nav, Navbar, Row, Col, Badge, Stack, Button } from "react-bootstrap";
 import { Introduction, Job } from "@/components";
@@ -53,14 +53,19 @@ export default function About() {
 					</Col>
 					<Col>
 						{person.languages.map((language) => (
-							<Badge bg="dark" key={language} className="mx-1">
+							<Button
+								variant="dark"
+								size="sm"
+								key={language}
+								className="mx-1 py-0 px-1"
+							>
 								{language}
-							</Badge>
+							</Button>
 						))}
 					</Col>
 				</Stack>
 			</Col>
-			<Col xs="8" md="7" lg="8" className="px-5">
+			<Col xs="8" md="7" lg="8" className="px-5" style={{ maxWidth: "800px" }}>
 				<Row
 					data-bs-spy="scroll"
 					data-bs-target="#navbar-example3"
@@ -74,9 +79,9 @@ export default function About() {
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						Work Experience
 					</p>
-					<Job />
-					<Job />
-					<Job />
+					{job.map((item) => (
+						<Job key={item.id} job={item} />
+					))}
 					<h4 id="simple-list-item-3">School Studies</h4>
 					<p>{person.description}</p>
 					<h4 id="simple-list-item-4">Skills</h4>
