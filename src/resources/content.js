@@ -4,10 +4,11 @@ const person = {
 	name: "Zheng Ma",
 	nickname: "Mark",
 	role: "Full-Stack Developer",
-	avatar: "",
+	avatar: "https://static.eileen-yu.com/portfolio/person1.jpeg",
 	email: "markzhengma@gmail.com",
-	location: "Shanghai, China",
-	languages: ["English", "Chinese"],
+	city: "Shanghai",
+	country: "China",
+	languages: ["English", "Mandarin"],
 };
 
 const social = [
@@ -25,6 +26,11 @@ const social = [
 		name: "Xiaohongshu",
 		icon: iconLibrary.xiaohongshu,
 		link: "https://xhslink.com/m/LXJnstZzNm",
+	},
+	{
+		name: "Email",
+		icon: iconLibrary.email,
+		link: `mailto:${person.email}`,
 	},
 ];
 
