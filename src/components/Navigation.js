@@ -7,25 +7,37 @@ export const Navigation = () => {
 	const pathname = usePathname() ?? "";
 
 	return (
-		<Navbar sticky="top" className="mx-auto p-2" style={{ width: "fit-content" }}>
+		<Navbar
+			sticky="top"
+			bg="light"
+			className="mx-auto p-1"
+			style={{ width: "fit-content", borderRadius: "24px" }}
+		>
 			<Nav className="">
-				<Nav.Link href="/" className="btn btn-light" active={pathname === "/"}>
+				<Button
+					href="/"
+					className="btn btn-light"
+					style={{ borderRadius: "24px" }}
+					active={pathname === "/"}
+				>
 					{new iconLibrary.home()}
-				</Nav.Link>
-				<Nav.Link
+				</Button>
+				<Button
 					href="/about"
 					className="btn btn-light"
+					style={{ borderRadius: "24px" }}
 					active={pathname === "/about"}
 				>
 					{new iconLibrary.person()} About
-				</Nav.Link>
-				<Nav.Link
+				</Button>
+				<Button
 					href="/work"
 					className="btn btn-light"
+					style={{ borderRadius: "24px" }}
 					active={pathname === "/work"}
 				>
 					{new iconLibrary.book()} Work
-				</Nav.Link>
+				</Button>
 			</Nav>
 		</Navbar>
 	);

@@ -9,6 +9,8 @@ const person = {
 	city: "Shanghai",
 	country: "China",
 	languages: ["English", "Mandarin"],
+	description:
+		"I am a Shanghai-based full-stack web developer, with passions about landing projects 0-1, using technologies to close the gaps between designs and realizations. My job and school study focus on technology and education, covering different industries and roles. I am always thankful for the various perspectives I built throughout these experiences.",
 };
 
 const social = [
@@ -23,7 +25,7 @@ const social = [
 		link: "https://www.youtube.com/@m-e-travel-vlog",
 	},
 	{
-		name: "Xiaohongshu",
+		name: "RedNote",
 		icon: iconLibrary.xiaohongshu,
 		link: "https://xhslink.com/m/LXJnstZzNm",
 	},
