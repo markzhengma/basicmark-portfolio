@@ -167,7 +167,7 @@ const study = [
 		school: "General Assembly（纽约）",
 		time: "2017",
 		department: "",
-		program: "全栈网站开发",
+		program: "全栈Web开发",
 	},
 	{
 		id: "study4",
@@ -178,4 +178,117 @@ const study = [
 	},
 ];
 
-export { person, social, brand, job, study };
+const skill = [
+	{
+		id: "skill1",
+		title: "Web前端开发",
+		desc:
+			"运用现代前端开发技术，实现页面设计，搭建前端功能，建立与中后台服务的通信。",
+		tools: [
+			{
+				icon: iconLibrary.html,
+				name: "HTML",
+			},
+			{
+				icon: iconLibrary.css,
+				name: "CSS",
+			},
+			{
+				icon: iconLibrary.jquery,
+				name: "jQuery",
+			},
+			{
+				icon: iconLibrary.reactjs,
+				name: "ReactJS",
+			},
+			{
+				icon: iconLibrary.nextjs,
+				name: "NextJS",
+			},
+			{
+				icon: iconLibrary.bootstrap,
+				name: "Bootstrap",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "skill2",
+		title: "服务端开发",
+		desc:
+			"基于容器化技术搭建现代化服务，搭建自动备份缓存数据库方案，开发分隔版本环境、跨平台的API。",
+		tools: [
+			{
+				icon: iconLibrary.docker,
+				name: "Docker",
+			},
+			{
+				icon: iconLibrary.nodejs,
+				name: "NodeJS",
+			},
+			{
+				icon: iconLibrary.k8s,
+				name: "Kubernetes",
+			},
+			{
+				icon: iconLibrary.mongodb,
+				name: "MongoDB",
+			},
+			{
+				icon: iconLibrary.nginx,
+				name: "Nginx",
+			},
+			{
+				icon: iconLibrary.firebase,
+				name: "Firebase",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "skill3",
+		title: "微信小程序开发",
+		desc: "开发微信小程序小程序小程序",
+		tools: [
+			{
+				icon: iconLibrary.wechat,
+				name: "微信小程序",
+			},
+			{
+				icon: iconLibrary.nodejs,
+				name: "NodeJS",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "skill4",
+		title: "游戏开发",
+		desc: "Unity游戏开发",
+		tools: [
+			{
+				icon: iconLibrary.unity,
+				name: "Unity3D",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+];
+
+export { person, social, brand, job, study, skill };
