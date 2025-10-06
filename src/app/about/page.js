@@ -1,7 +1,7 @@
-import { person, job } from "@/resources/content";
+import { person, job, study } from "@/resources/content";
 import Image from "next/image";
 import { Nav, Navbar, Row, Col, Badge, Stack, Button } from "react-bootstrap";
-import { Introduction, Job } from "@/components";
+import { Introduction, Job, Study } from "@/components";
 import { iconLibrary } from "@/resources/icon";
 
 export default function About() {
@@ -79,11 +79,12 @@ export default function About() {
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						Work Experience
 					</p>
-					{job.map((item) => (
-						<Job key={item.id} job={item} />
-					))}
-					<h4 id="simple-list-item-3">School Studies</h4>
-					<p>{person.description}</p>
+					{job.map((item) => <Job key={item.id} job={item} />).reverse()}
+					<div id="simple-list-item-3"></div>
+					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
+						School Studies
+					</p>
+					{study.map((item) => <Study key={item.id} study={item} />).reverse()}
 					<h4 id="simple-list-item-4">Skills</h4>
 					<p>{person.description}</p>
 				</Row>

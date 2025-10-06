@@ -6,7 +6,7 @@ import { Button, Card, Col, Stack } from "react-bootstrap";
 
 export const Job = ({ job }) => {
 	return (
-		<Card className="px-0" style={{ border: "none" }}>
+		<Card className="px-0 border-0">
 			<Card.Header className="d-flex justify-content-between">
 				<span className="fw-medium lh-base text-body-dark">{job.company}</span>
 				<span className="fw-medium lh-base text-body-secondary">{job.time}</span>
