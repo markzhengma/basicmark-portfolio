@@ -181,10 +181,43 @@ const study = [
 const skill = [
 	{
 		id: "skill1",
+		title: "游戏设计开发",
+		desc:
+			"基于现代化游戏理论设计高可玩性的游戏，使用Unity引擎开发3D及VR/AR游戏。",
+		tools: [
+			{
+				icon: iconLibrary.unity,
+				name: "Unity3D",
+			},
+			{
+				icon: iconLibrary.code,
+				name: "C#",
+			},
+			{
+				icon: iconLibrary.ar,
+				name: "Vuforia AR",
+			},
+			{
+				icon: iconLibrary.vive,
+				name: "HTC Vive",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "skill2",
 		title: "Web前端开发",
 		desc:
-			"运用现代前端开发技术，实现页面设计，搭建前端功能，建立与中后台服务的通信。",
+			"运用现代前端开发技术，实现页面设计，搭建网站前端，建立与中后台服务的通信。",
 		tools: [
+			{
+				icon: iconLibrary.git,
+				name: "Git",
+			},
 			{
 				icon: iconLibrary.html,
 				name: "HTML",
@@ -192,6 +225,10 @@ const skill = [
 			{
 				icon: iconLibrary.css,
 				name: "CSS",
+			},
+			{
+				icon: iconLibrary.javascript,
+				name: "JavaScript",
 			},
 			{
 				icon: iconLibrary.jquery,
@@ -209,6 +246,10 @@ const skill = [
 				icon: iconLibrary.bootstrap,
 				name: "Bootstrap",
 			},
+			{
+				icon: iconLibrary.vuejs,
+				name: "VueJS",
+			},
 		],
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
@@ -217,18 +258,26 @@ const skill = [
 		],
 	},
 	{
-		id: "skill2",
+		id: "skill3",
 		title: "服务端开发",
 		desc:
-			"基于容器化技术搭建现代化服务，搭建自动备份缓存数据库方案，开发分隔版本环境、跨平台的API。",
+			"基于容器化技术搭建现代化服务，搭建自动备份数据库、缓存方案，开发分隔版本环境、跨平台的API。",
 		tools: [
 			{
-				icon: iconLibrary.docker,
-				name: "Docker",
+				icon: iconLibrary.linux,
+				name: "Linux",
+			},
+			{
+				icon: iconLibrary.network,
+				name: "HTTP",
 			},
 			{
 				icon: iconLibrary.nodejs,
 				name: "NodeJS",
+			},
+			{
+				icon: iconLibrary.docker,
+				name: "Docker",
 			},
 			{
 				icon: iconLibrary.k8s,
@@ -237,6 +286,10 @@ const skill = [
 			{
 				icon: iconLibrary.mongodb,
 				name: "MongoDB",
+			},
+			{
+				icon: iconLibrary.postgresql,
+				name: "PostgreSQL",
 			},
 			{
 				icon: iconLibrary.nginx,
@@ -254,33 +307,26 @@ const skill = [
 		],
 	},
 	{
-		id: "skill3",
+		id: "skill4",
 		title: "微信小程序开发",
-		desc: "开发微信小程序小程序小程序",
+		desc:
+			"处理微信小程序的注册、配置、发布流程。基于微信生态进行小程序开发，包括微信登录、权限管理、服务号推送。",
 		tools: [
 			{
 				icon: iconLibrary.wechat,
-				name: "微信小程序",
+				name: "微信生态",
 			},
 			{
-				icon: iconLibrary.nodejs,
-				name: "NodeJS",
+				icon: iconLibrary.html,
+				name: "WXML",
 			},
-		],
-		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-		],
-	},
-	{
-		id: "skill4",
-		title: "游戏开发",
-		desc: "Unity游戏开发",
-		tools: [
 			{
-				icon: iconLibrary.unity,
-				name: "Unity3D",
+				icon: iconLibrary.css,
+				name: "Vant",
+			},
+			{
+				icon: iconLibrary.javascript,
+				name: "Javascript",
 			},
 		],
 		pics: [

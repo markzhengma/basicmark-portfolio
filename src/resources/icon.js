@@ -21,7 +21,6 @@ import {
 } from "react-icons/pi";
 
 import {
-	SiJavascript,
 	SiNextdotjs,
 	SiHtml5,
 	SiReact,
@@ -39,6 +38,8 @@ import {
 	SiFigma,
 	SiSupabase,
 	SiFirebase,
+	SiVuedotjs,
+	SiHtcvive,
 } from "react-icons/si";
 
 import {
@@ -54,7 +55,17 @@ import {
 	FaWhatsapp,
 	FaReddit,
 	FaTelegram,
+	FaNetworkWired,
+	FaGitAlt,
+	FaFileCode,
+	FaLinux,
 } from "react-icons/fa6";
+
+import { DiJavascript } from "react-icons/di";
+
+import { TbBrandCSharp, TbAugmentedReality } from "react-icons/tb";
+
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const iconLibrary = {
 	arrowUpRight: HiArrowUpRight,
@@ -81,7 +92,7 @@ export const iconLibrary = {
 	arrowUpRightFromSquare: HiArrowTopRightOnSquare,
 	document: HiOutlineDocument,
 	rocket: HiOutlineRocketLaunch,
-	javascript: SiJavascript,
+	javascript: DiJavascript,
 	nextjs: SiNextdotjs,
 	supabase: SiSupabase,
 	figma: SiFigma,
@@ -103,4 +114,13 @@ export const iconLibrary = {
 	jquery: SiJquery,
 	nginx: SiNginx,
 	firebase: SiFirebase,
+	vuejs: SiVuedotjs,
+	network: FaNetworkWired,
+	git: FaGitAlt,
+	csharp: TbBrandCSharp,
+	code: FaFileCode,
+	vive: SiHtcvive,
+	ar: TbAugmentedReality,
+	postgresql: BiLogoPostgresql,
+	linux: FaLinux,
 };
