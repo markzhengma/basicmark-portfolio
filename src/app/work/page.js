@@ -1,29 +1,21 @@
+import { Project } from "@/components";
+import { project } from "@/resources/content";
+import { Navbar, Row, Col, Stack, Card } from "react-bootstrap";
+
 export default function Work() {
 	return (
-		<div>
-			<div className="card w-75 mb-3">
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						With supporting text below as a natural lead-in to additional content.
-					</p>
-					<a href="#" className="btn btn-primary">
-						Button
-					</a>
-				</div>
-			</div>
-
-			<div className="card w-50">
-				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						With supporting text below as a natural lead-in to additional content.
-					</p>
-					<a href="#" className="btn btn-primary">
-						Button
-					</a>
-				</div>
-			</div>
-		</div>
+		<Row className="d-flex justify-content-center">
+			<Col xs="10" md="8" lg="6" className="d-flex flex-column align-items-center">
+				<p
+					className="fw-semibold lh-lg text-body-secondary mt-5 mx-auto"
+					style={{ fontSize: "46px" }}
+				>
+					我的项目
+				</p>
+				<Stack gap={4}>
+					{project.map((item) => <Project key={item.id} project={item} />).reverse()}
+				</Stack>
+			</Col>
+		</Row>
 	);
 }

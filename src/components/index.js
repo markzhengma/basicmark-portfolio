@@ -5,4 +5,5 @@ export { Introduction } from "@/components/Introduction";
 export { Job } from "@/components/Job";
 export { Study } from "@/components/Study";
 export { Skill } from "@/components/Skill";
+export { Project } from "@/components/Project";
 export { ControlledCarousel } from "@/components/ControlledCarousel";

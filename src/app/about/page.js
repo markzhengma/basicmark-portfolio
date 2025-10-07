@@ -13,17 +13,17 @@ export default function About() {
 			>
 				<Nav className="flex-column align-items-stretch pe-4 border-end">
 					<Nav className="nav nav-pills flex-column">
-						<a className="nav-link" href="#simple-list-item-1">
+						<a className="nav-link" href="#introduction">
 							Introduction
 						</a>
-						<a className="nav-link" href="#simple-list-item-2">
+						<a className="nav-link" href="#work-experience">
 							Work Experience
 						</a>
-						<a className="nav-link" href="#simple-list-item-3">
+						<a className="nav-link" href="#school-studies">
 							School Studies
 						</a>
-						<a className="nav-link" href="#simple-list-item-4">
-							Skills
+						<a className="nav-link" href="#technical-skills">
+							Technical Skills
 						</a>
 					</Nav>
 				</Nav>
@@ -72,20 +72,20 @@ export default function About() {
 					data-bs-smooth-scroll="true"
 					tabIndex="0"
 				>
-					<div id="simple-list-item-1"></div>
+					<div id="introduction"></div>
 					<Introduction />
 
-					<div id="simple-list-item-2"></div>
+					<div id="work-experience"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						Work Experience
 					</p>
 					{job.map((item) => <Job key={item.id} job={item} />).reverse()}
-					<div id="simple-list-item-3"></div>
+					<div id="school-studies"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						School Studies
 					</p>
 					{study.map((item) => <Study key={item.id} study={item} />).reverse()}
-					<div id="simple-list-item-4"></div>
+					<div id="technical-skills"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						Technical Skills
 					</p>

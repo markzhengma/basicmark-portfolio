@@ -1,54 +1,54 @@
 "use client";
 
+import { Carousel, Card, Row, Col } from "react-bootstrap";
+import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
-import { Image, Row, Carousel, Card } from "react-bootstrap";
+import { iconLibrary } from "@/resources/icon";
 
-export const ControlledCarousel = () => {
+export const ControlledCarousel = ({ displayItem, itemType }) => {
 	const [index, setIndex] = useState(0);
 
 	const handleSelect = (selectedIndex) => {
 		setIndex(selectedIndex);
 	};
-
 	return (
-		<Carousel
-			activeIndex={index}
-			onSelect={handleSelect}
-			style={{ width: "100%", borderRadius: "6px", overflow: "hidden" }}
-		>
-			<Carousel.Item style={{ aspectRatio: "4/3" }}>
-				<Card.Img
-					text="First slide"
-					src="https://static.eileen-yu.com/portfolio/background.jpg"
-					style={{ objectFit: "cover", height: "100%" }}
-				/>
-				<Carousel.Caption>
-					<h3>First slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-				</Carousel.Caption>
-			</Carousel.Item>
-			<Carousel.Item style={{ aspectRatio: "4/3" }}>
-				<Card.Img
-					text="First slide"
-					src="https://static.eileen-yu.com/portfolio/beijing.jpg"
-					style={{ objectFit: "cover", height: "100%" }}
-				/>
-				<Carousel.Caption>
-					<h3>Second slide label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</Carousel.Caption>
-			</Carousel.Item>
-			<Carousel.Item style={{ aspectRatio: "4/3" }}>
-				<Card.Img
-					text="First slide"
-					src="https://static.eileen-yu.com/portfolio/su.jpg"
-					style={{ objectFit: "cover", height: "100%" }}
-				/>
-				<Carousel.Caption>
-					<h3>Third slide label</h3>
-					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-				</Carousel.Caption>
-			</Carousel.Item>
-		</Carousel>
+		<Card className="border-0 rounded-0 my-5">
+			<Carousel
+				fade
+				activeIndex={index}
+				onSelect={handleSelect}
+				style={{ width: "100%", borderRadius: "6px", overflow: "hidden" }}
+			>
+				{displayItem.map((item) => (
+					<Carousel.Item key={item.id} style={{ aspectRatio: "4/3" }}>
+						<Image
+							src={item.pics[0]}
+							fill
+							alt="Project Cover"
+							style={{ objectFit: "cover", height: "100%" }}
+						/>
+						<Carousel.Caption>
+							<p className="fs-4 fw-semibold mb-5">{displayItem[index].title}</p>
+						</Carousel.Caption>
+					</Carousel.Item>
+				))}
+			</Carousel>
+			<Row className="h-25">
+				<Col sm="4" className="">
+					<p>{displayItem[index].role}</p>
+				</Col>
+				<Col sm="8">
+					<p>
+						{displayItem[index].desc.length > 100
+							? displayItem[index].desc.slice(0, 50) + "..."
+							: displayItem[index].desc}
+					</p>
+					<Link href={`/${itemType}#${displayItem[index].id}`}>
+						项目详情 {new iconLibrary.arrowRight()}
+					</Link>
+				</Col>
+			</Row>
+		</Card>
 	);
 };

@@ -14,11 +14,11 @@ const person = {
 };
 
 const social = [
-	{
-		name: "GitHub",
-		icon: iconLibrary.github,
-		link: "https://github.com/markzhengma",
-	},
+	// {
+	// 	name: "GitHub",
+	// 	icon: iconLibrary.github,
+	// 	link: "https://github.com/markzhengma",
+	// },
 	{
 		name: "Youtube",
 		icon: iconLibrary.youtube,
@@ -39,7 +39,7 @@ const social = [
 const brand = {
 	headline: "Building bridges between design and code",
 	selfintro:
-		"I'm Mark, a full-stack developer, product manager, game designer, and a teacher.",
+		"I'm Mark, a full-stack developer, product manager, game designer, and a teacher. It's good to see you!",
 	end: "Looking for collaborations? Let's get in touch!",
 };
 
@@ -53,7 +53,7 @@ const job = [
 			"负责沉浸式中文学校的教学工作（教案设计、授课、测验），课程包括中文课、数学课、科学课。",
 			"监督引导学生的学校生活，组织家长学生活动，包括Science Fair、节日庆典、Field Study等。",
 		],
-		projectLink: "/work",
+		projectLink: "",
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
@@ -80,12 +80,12 @@ const job = [
 		id: "job3",
 		company: "ZZYW Studio（纽约） ",
 		time: "2019",
-		role: "Web & Unity工程师",
+		role: "Web & Unity工程师（Freelance）",
 		achievement: [
 			"参与开发The Creator’s Planetarium系列艺术展的数字艺术内容。",
 			"负责移动端web内容开发、基于Firebase的实时多人交互、以及Unity游戏的交互逻辑开发。",
 		],
-		projectLink: "/work",
+		projectLink: "/work#project1",
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
@@ -103,7 +103,7 @@ const job = [
 			"负责酷我音乐小程序（微信、百度、头条）服务端开发。",
 			"负责酷我主播电台、腾讯音乐人平台项目的前端和服务端开发。",
 		],
-		projectLink: "/work",
+		projectLink: "/work#project3",
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
@@ -112,14 +112,14 @@ const job = [
 	},
 	{
 		id: "job5",
-		company: "壳牌有限公司（内蒙古）",
+		company: "壳牌有限公司",
 		time: "2019-2024",
 		role: "Web工程师（Freelance）",
 		achievement: [
 			"负责经销商信息管理系统设计和搭建，以及门店微信小程序开发（详见项目列表）",
 			"实现了经销商各门店的企业信息同步，门店客户更便捷查询个人记录，拉动经销商营业额的增长。",
 		],
-		projectLink: "/work",
+		projectLink: "/work#project4",
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
@@ -138,7 +138,7 @@ const job = [
 			"为公司在双减期间开拓了新的业务线，美术风格开始3D化，游戏技术团队开始从cocos向unity转型",
 			"实现了公司线上教育形式的改革：从看影片和大量重复带来的被动瞬时记忆，到动手探索解决问题感受科学现象的理解式学习。",
 		],
-		projectLink: "/work",
+		projectLink: "/work#project5",
 		pics: [
 			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
@@ -276,6 +276,10 @@ const skill = [
 				name: "NodeJS",
 			},
 			{
+				icon: iconLibrary.nginx,
+				name: "Nginx",
+			},
+			{
 				icon: iconLibrary.docker,
 				name: "Docker",
 			},
@@ -290,10 +294,6 @@ const skill = [
 			{
 				icon: iconLibrary.postgresql,
 				name: "PostgreSQL",
-			},
-			{
-				icon: iconLibrary.nginx,
-				name: "Nginx",
 			},
 			{
 				icon: iconLibrary.firebase,
@@ -335,6 +335,129 @@ const skill = [
 			"https://static.eileen-yu.com/portfolio/beijing.jpg",
 		],
 	},
+	{
+		id: "skill5",
+		title: "影像内容创作",
+		desc:
+			"拍摄照片、影片，基于Lightroom进行照片精修，通过Final Cut Pro和剪映进行视频制作。",
+		tools: [
+			{
+				icon: iconLibrary.camera,
+				name: "摄像",
+			},
+			{
+				icon: iconLibrary.video,
+				name: "摄影",
+			},
+			{
+				icon: iconLibrary.mcreate,
+				name: "Final Cut Pro",
+			},
+			{
+				icon: iconLibrary.medit,
+				name: "剪映",
+			},
+			{
+				icon: iconLibrary.lightroom,
+				name: "Lightroom",
+			},
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
 ];
 
-export { person, social, brand, job, study, skill };
+const project = [
+	{
+		id: "project1",
+		title: "Space Exploration Lab",
+		time: "2019",
+		role: "Unity工程师·Web全栈工程师",
+		desc:
+			"在纽约举办的宇宙探索主题艺术展Creator's Planetarium。在这个视觉艺术交互体验中，一个有着五颜六色星球的宇宙（Unity场景）被投射在了展厅的全部墙上，营造出置身宇宙中的感觉。参观者通过移动端网页设计自己的纸飞机，然后放飞在“宇宙”中。参观者能够通过手机来实时遥控驾驶纸飞机在“宇宙”中飞行，并与星球和其他纸飞机进行碰撞交互。",
+		techspecs: [
+			"基于Google Firebase的Web开发。包括用户信息收集、自定义图案绘制保存、利用Firebase实现实时遥控驾驶信号的发送。",
+			"在Unity场景中基于Firebase的事件创建“飞机”并实现单场景多人实时互动。",
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "project2",
+		title: "酷我主播电台&腾讯音乐人平台",
+		time: "2019-2020",
+		role: "Web前端工程师",
+		desc: "酷我音乐UGC平台的前端页面搭建。",
+		techspecs: [
+			"基于VueJS的PC端/移动端网页开发，主要实现数据可视化图表，以及主播个人信息的浏览编辑。",
+			"基于KoaJS+MongoDB的数据接口服务。",
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "project3",
+		title: "酷我音乐盒（微信、百度、头条）小程序",
+		time: "2019-2020",
+		role: "Web服务端工程师",
+		desc:
+			"0-1建立基于EggJS+K8S的更易于维护的业务导向BFF服务，赋能前端团队承接多样需求",
+		techspecs: [
+			"封装大后台接口，对数据进行规范化整合、古早代码带来的冗余数据进行剔除，输出为小程序渲染所需的轻量化数据接口。",
+			"通过MongoDB和K8S定时任务进行高计算量但低时效性要求的数据缓存，以提高页面响应速度、降低服务器压力。",
+			"挂载Prometheus监控系统，实时监控服务的负载情况。",
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "project4",
+		title: "壳牌经销商门店信息管理系统及门店小程序",
+		time: "2019-2024",
+		role: "Web全栈工程师",
+		desc:
+			"0-1独立完成经销商信息管理系统的需求、设计、开发，沟通门店经理、员工的生产经营活动应用场景，了解客户的诉求和使用流程，从2019年开始不断进行迭代，目前阶段已实现基于腾讯云服务器上Docker容器化的、由EggJS应用服务为核心驱动的、ReactJS网页CRM应用与微信小程序三分离的企业级应用。",
+		techspecs: [
+			"CRM前端：供企业管理员使用。ReactJS+Bootstrap+Nginx+腾讯云，通过微信登录进行权限校验，供企业进行客户及其养护信息查询录入、产品及赠品列表编辑修改、管理员信息管理、微信小程序头图/公众号文章的编辑。",
+			"后端服务：系统的核心驱动。EggJS+MongoDB+Nginx+腾讯云，提供CRM和微信小程序所需的所有数据接口、封装微信API，定期数据备份和发送月报邮件。",
+			"微信小程序：供门店客户和门店员工使用。微信登录权限校验（基于CRM维护的管理员信息）：客户查看养护记录和积分；员工进行养护信息的录入编辑。",
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+		],
+	},
+	{
+		id: "project5",
+		title: "叽里呱啦科学启蒙课项目",
+		time: "2021-2024",
+		role: "项目负责人",
+		desc:
+			"呱呱爱科学，是叽里呱啦在线教育产品中的学龄前科学启蒙课程，主张孩子通过动手体验来观察科学现象、理解科学原理。为公司在双减期间开拓了新的业务线，沉淀了3D化美术设计，搭建Unity技术团队。实现了公司线上教育形式的改革：从看影片和大量重复带来的被动瞬时记忆，到动手探索解决问题感受科学现象的理解式学习。",
+		techspecs: [
+			"立项阶段：牵头项目的0到1。在双减后参与公司发展方向探索，并整理总结大量学龄前儿童进行科学启蒙教育这一赛道的可行性方案。主导了基于Unity3D引擎和VuforiaAR引擎的Demo开发并成功立项、搭建包括项管、美术、开发、影视、教研、游戏策划在内的约20人项目团队。",
+			"测试阶段：负责领导项目的MVP制作、进行项目规划、商业价值分析验证、用户调研",
+			"生产阶段：扩大团队、搭建业务梯队，获取资源批量制作课程。在团队管理的同时，主导产品的教学内容规划、商业目标制定、预算计划和过程把控，推进制作。",
+		],
+		pics: [
+			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.eileen-yu.com/portfolio/su.jpg",
+			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+		],
+	},
+];
+
+export { person, social, brand, job, study, skill, project };

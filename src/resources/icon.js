@@ -40,6 +40,7 @@ import {
 	SiFirebase,
 	SiVuedotjs,
 	SiHtcvive,
+	SiAdobelightroom,
 } from "react-icons/si";
 
 import {
@@ -59,6 +60,8 @@ import {
 	FaGitAlt,
 	FaFileCode,
 	FaLinux,
+	FaCameraRetro,
+	FaVideo,
 } from "react-icons/fa6";
 
 import { DiJavascript } from "react-icons/di";
@@ -67,12 +70,14 @@ import { TbBrandCSharp, TbAugmentedReality } from "react-icons/tb";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 
+import { MdMovieEdit, MdMovieCreation, MdOutlinePerson } from "react-icons/md";
+
 export const iconLibrary = {
 	arrowUpRight: HiArrowUpRight,
 	arrowRight: HiArrowRight,
 	email: HiEnvelope,
 	globe: HiOutlineGlobeAsiaAustralia,
-	person: PiUserCircleDuotone,
+	person: MdOutlinePerson,
 	grid: PiGridFourDuotone,
 	book: PiBookBookmarkDuotone,
 	openLink: HiOutlineLink,
@@ -123,4 +128,9 @@ export const iconLibrary = {
 	ar: TbAugmentedReality,
 	postgresql: BiLogoPostgresql,
 	linux: FaLinux,
+	camera: FaCameraRetro,
+	video: FaVideo,
+	medit: MdMovieEdit,
+	mcreate: MdMovieCreation,
+	lightroom: SiAdobelightroom,
 };

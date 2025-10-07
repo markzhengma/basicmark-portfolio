@@ -20,7 +20,10 @@ export const Job = ({ job }) => {
 						<li key={`${job.id}-achieve${index}-${item}`}>{item}</li>
 					))}
 				</ul>
-				<Link href={job.projectLink}>
+				<Link
+					href={job.projectLink}
+					className={job.projectLink !== "" ? "d-inline" : "d-none"}
+				>
 					See Projects {new iconLibrary.arrowRight()}
 				</Link>
 			</Card.Body>
