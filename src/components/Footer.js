@@ -7,9 +7,9 @@ export const Footer = () => {
 
 	return (
 		<Navbar className="bg-body-tertiary">
-			<Container fluid>
+			<Container fluid className="px-3">
 				<Navbar.Text>
-					© {currentYear} / {person.nickname} {person.name} / Build with Heart
+					© {currentYear} / {person.nickname} {person.name_eng} / Build with Heart
 				</Navbar.Text>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">
@@ -17,7 +17,7 @@ export const Footer = () => {
 						<Nav.Link
 							key={item.name}
 							href={item.link}
-							className="btn btn-light"
+							className="btn btn-light fs-5"
 							target="_blank"
 							rel="noopener noreferrer"
 							active={false}

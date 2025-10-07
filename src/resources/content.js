@@ -1,24 +1,31 @@
 import { iconLibrary } from "./icon";
 
 const person = {
-	name: "Zheng Ma",
+	name: "马铮",
+	name_eng: "Zheng Ma",
 	nickname: "Mark",
-	role: "Full-Stack Developer",
+	role: "全栈开发工程师",
+	role_eng: "Full-Stack Developer",
 	avatar: "https://static.eileen-yu.com/portfolio/person1.jpeg",
-	email: "markzhengma@gmail.com",
-	city: "Shanghai",
-	country: "China",
-	languages: ["English", "Mandarin"],
+	email: "markzhengma@qq.com",
+	city: "上海",
+	city_eng: "Shanghai",
+	country: "中国",
+	country_eng: "China",
+	languages: ["英文·精通", "中文·母语"],
+	languages_eng: ["English", "Mandarin"],
 	description:
+		"我是一位全栈开发工程师，目前居住在中国上海。我热衷于项目从0到1的落地，而且享受通过技术来搭建设计与实现之间的桥梁。我的学习和工作主要聚焦于科技与教育领域，但又覆盖了不同的行业和岗位类型。这些经历给我带来了丰富的视角来思考和创造。",
+	description_eng:
 		"I am a Shanghai-based full-stack web developer, with passions about landing projects 0-1, using technologies to close the gaps between designs and realizations. My job and school study focus on technology and education, covering different industries and roles. I am always thankful for the various perspectives I built throughout these experiences.",
 };
 
 const social = [
-	// {
-	// 	name: "GitHub",
-	// 	icon: iconLibrary.github,
-	// 	link: "https://github.com/markzhengma",
-	// },
+	{
+		name: "GitHub",
+		icon: iconLibrary.github,
+		link: "https://github.com/markzhengma",
+	},
 	{
 		name: "Youtube",
 		icon: iconLibrary.youtube,
@@ -37,10 +44,13 @@ const social = [
 ];
 
 const brand = {
-	headline: "Building bridges between design and code",
+	headline: "用技术 让更多美好的设计成为现实。",
 	selfintro:
+		"我是Mark，一名全栈Web工程师。也是一名游戏设计开发者、产品经理，同时也是一位教师和自媒体工作者。很高兴你来到这里！",
+	selfintro_eng:
 		"I'm Mark, a full-stack developer, product manager, game designer, and a teacher. It's good to see you!",
-	end: "Looking for collaborations? Let's get in touch!",
+	end: "寻求合作？那就请直接联系我吧！",
+	end_eng: "Looking for collaborations? Let's get in touch!",
 };
 
 const job = [
@@ -376,6 +386,7 @@ const project = [
 		title: "Space Exploration Lab",
 		time: "2019",
 		role: "Unity工程师·Web全栈工程师",
+		brief: "通过Unity3D引擎、基于Firebase实时通信开发的数字艺术体验。",
 		desc:
 			"在纽约举办的宇宙探索主题艺术展Creator's Planetarium。在这个视觉艺术交互体验中，一个有着五颜六色星球的宇宙（Unity场景）被投射在了展厅的全部墙上，营造出置身宇宙中的感觉。参观者通过移动端网页设计自己的纸飞机，然后放飞在“宇宙”中。参观者能够通过手机来实时遥控驾驶纸飞机在“宇宙”中飞行，并与星球和其他纸飞机进行碰撞交互。",
 		techspecs: [
@@ -393,7 +404,10 @@ const project = [
 		title: "酷我主播电台&腾讯音乐人平台",
 		time: "2019-2020",
 		role: "Web前端工程师",
-		desc: "酷我音乐UGC平台的前端页面搭建。",
+		brief:
+			"酷我音乐UGC平台搭建，用户能够在此平台成为签约主播并发布作品、获得收益。",
+		desc:
+			"酷我音乐UGC平台搭建，用户能够在此平台成为签约主播并发布作品、获得收益。",
 		techspecs: [
 			"基于VueJS的PC端/移动端网页开发，主要实现数据可视化图表，以及主播个人信息的浏览编辑。",
 			"基于KoaJS+MongoDB的数据接口服务。",
@@ -406,9 +420,10 @@ const project = [
 	},
 	{
 		id: "project3",
-		title: "酷我音乐盒（微信、百度、头条）小程序",
+		title: "酷我音乐小程序",
 		time: "2019-2020",
 		role: "Web服务端工程师",
+		brief: "基于EggJS和Kubernetes的微信、百度、头条平台的小程序服务。",
 		desc:
 			"0-1建立基于EggJS+K8S的更易于维护的业务导向BFF服务，赋能前端团队承接多样需求",
 		techspecs: [
@@ -424,9 +439,10 @@ const project = [
 	},
 	{
 		id: "project4",
-		title: "壳牌经销商门店信息管理系统及门店小程序",
+		title: "壳牌经销商信息管理系统",
 		time: "2019-2024",
 		role: "Web全栈工程师",
+		brief: "由CRM网站、门店微信小程序和后端服务构成的汽车养护中心信息管理系统。",
 		desc:
 			"0-1独立完成经销商信息管理系统的需求、设计、开发，沟通门店经理、员工的生产经营活动应用场景，了解客户的诉求和使用流程，从2019年开始不断进行迭代，目前阶段已实现基于腾讯云服务器上Docker容器化的、由EggJS应用服务为核心驱动的、ReactJS网页CRM应用与微信小程序三分离的企业级应用。",
 		techspecs: [
@@ -442,11 +458,13 @@ const project = [
 	},
 	{
 		id: "project5",
-		title: "叽里呱啦科学启蒙课项目",
+		title: "叽里呱啦科学启蒙课",
 		time: "2021-2024",
 		role: "项目负责人",
+		brief:
+			"叽里呱啦数字教育产品中的学龄前STEAM课程。主张孩子通过动手体验来观察科学现象、理解科学原理。",
 		desc:
-			"呱呱爱科学，是叽里呱啦在线教育产品中的学龄前科学启蒙课程，主张孩子通过动手体验来观察科学现象、理解科学原理。为公司在双减期间开拓了新的业务线，沉淀了3D化美术设计，搭建Unity技术团队。实现了公司线上教育形式的改革：从看影片和大量重复带来的被动瞬时记忆，到动手探索解决问题感受科学现象的理解式学习。",
+			"呱呱爱科学，是叽里呱啦数字教育产品中的学龄前科学启蒙课程，主张孩子通过动手体验来观察科学现象、理解科学原理。为公司在双减期间开拓了新的业务线，沉淀了3D化美术设计，搭建Unity技术团队。实现了公司线上教育形式的改革：从看影片和大量重复带来的被动瞬时记忆，到动手探索解决问题感受科学现象的理解式学习。",
 		techspecs: [
 			"立项阶段：牵头项目的0到1。在双减后参与公司发展方向探索，并整理总结大量学龄前儿童进行科学启蒙教育这一赛道的可行性方案。主导了基于Unity3D引擎和VuforiaAR引擎的Demo开发并成功立项、搭建包括项管、美术、开发、影视、教研、游戏策划在内的约20人项目团队。",
 			"测试阶段：负责领导项目的MVP制作、进行项目规划、商业价值分析验证、用户调研",

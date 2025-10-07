@@ -17,7 +17,7 @@ export const Header = () => {
 		<Navbar sticky="top" bg="light" data-bs-theme="light">
 			<Container fluid>
 				<Navbar.Text>
-					{person.name} / {person.city}
+					{person.name_eng} / {person.city_eng}
 				</Navbar.Text>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">

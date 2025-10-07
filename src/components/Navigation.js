@@ -10,33 +10,33 @@ export const Navigation = () => {
 		<Row className="sticky-top pt-1 mx-auto" style={{ width: "fit-content" }}>
 			<Navbar
 				bg="light"
-				className="mx-auto p-1"
-				style={{ width: "fit-content", borderRadius: "24px" }}
+				className="mx-auto p-1 rounded-pill"
+				style={{ width: "fit-content" }}
 			>
 				<Nav className="">
 					<Button
+						variant="light"
 						href="/"
-						className="btn btn-light"
-						style={{ borderRadius: "24px" }}
+						className="rounded-circle fw-semibold"
 						active={pathname === "/"}
 					>
 						{new iconLibrary.home()}
 					</Button>
 					<Button
+						variant="light"
 						href="/about"
-						className="btn btn-light"
-						style={{ borderRadius: "24px" }}
+						className="rounded-pill fw-semibold"
 						active={pathname === "/about"}
 					>
-						{new iconLibrary.person()} About
+						{new iconLibrary.person()} 关于
 					</Button>
 					<Button
+						variant="light"
 						href="/work"
-						className="btn btn-light"
-						style={{ borderRadius: "24px" }}
+						className="rounded-pill fw-semibold"
 						active={pathname === "/work"}
 					>
-						{new iconLibrary.book()} Work
+						{new iconLibrary.book()} 项目
 					</Button>
 				</Nav>
 			</Navbar>

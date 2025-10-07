@@ -1,6 +1,6 @@
 "use client";
 
-import { Carousel, Card, Row, Col } from "react-bootstrap";
+import { Carousel, Card, Row, Col, Button } from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
@@ -28,25 +28,24 @@ export const ControlledCarousel = ({ displayItem, itemType }) => {
 							alt="Project Cover"
 							style={{ objectFit: "cover", height: "100%" }}
 						/>
-						<Carousel.Caption>
+						{/* <Carousel.Caption>
 							<p className="fs-4 fw-semibold mb-5">{displayItem[index].title}</p>
-						</Carousel.Caption>
+						</Carousel.Caption> */}
 					</Carousel.Item>
 				))}
 			</Carousel>
-			<Row className="h-25">
-				<Col sm="4" className="">
-					<p>{displayItem[index].role}</p>
+			<Row className="mt-4" style={{ height: "160px" }}>
+				<Col sm="5" className="fs-4 fw-semibold text-body-secondary px-4">
+					<p>{displayItem[index].title}</p>
 				</Col>
-				<Col sm="8">
-					<p>
-						{displayItem[index].desc.length > 100
-							? displayItem[index].desc.slice(0, 50) + "..."
-							: displayItem[index].desc}
-					</p>
-					<Link href={`/${itemType}#${displayItem[index].id}`}>
+				<Col sm="7" className="fw-normal lh-base text-body-dark px-2">
+					<p>{displayItem[index].brief}</p>
+					<Button
+						variant="outline-secondary"
+						href={`/${itemType}#${displayItem[index].id}`}
+					>
 						项目详情 {new iconLibrary.arrowRight()}
-					</Link>
+					</Button>
 				</Col>
 			</Row>
 		</Card>

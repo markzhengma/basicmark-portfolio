@@ -14,23 +14,23 @@ export default function About() {
 				<Nav className="flex-column align-items-stretch pe-4 border-end">
 					<Nav className="nav nav-pills flex-column">
 						<a className="nav-link" href="#introduction">
-							Introduction
+							简介
 						</a>
 						<a className="nav-link" href="#work-experience">
-							Work Experience
+							工作经历
 						</a>
 						<a className="nav-link" href="#school-studies">
-							School Studies
+							学位与专业培训
 						</a>
 						<a className="nav-link" href="#technical-skills">
-							Technical Skills
+							技术栈
 						</a>
 					</Nav>
 				</Nav>
 			</Navbar>
 			<Col xs="4" md="5" lg="4">
 				<Stack
-					className="sticky-top"
+					className="sticky-top px-5"
 					gap={2}
 					style={{
 						paddingTop: "80px",
@@ -45,7 +45,7 @@ export default function About() {
 						height={160}
 						className="rounded-circle shadow p-1 bg-body-tertiary"
 						style={{ objectFit: "cover" }}
-						alt="..."
+						alt="Head Image"
 					/>
 					<Col>
 						{new iconLibrary.globe()}
@@ -76,19 +76,15 @@ export default function About() {
 					<Introduction />
 
 					<div id="work-experience"></div>
-					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
-						Work Experience
-					</p>
+					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">工作经历</p>
 					{job.map((item) => <Job key={item.id} job={item} />).reverse()}
 					<div id="school-studies"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
-						School Studies
+						学位与专业培训
 					</p>
 					{study.map((item) => <Study key={item.id} study={item} />).reverse()}
 					<div id="technical-skills"></div>
-					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
-						Technical Skills
-					</p>
+					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">技术栈</p>
 					<Skill />
 				</Row>
 			</Col>

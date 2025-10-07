@@ -10,7 +10,7 @@ export const Introduction = () => {
 				className="fw-bold lh-1 text-body-secondary my-4"
 				style={{ fontSize: "46px" }}
 			>
-				"{person.nickname}" {person.name}
+				{person.nickname} · {person.name}
 			</p>
 			<p className="fs-4 fw-medium lh-1 text-body-secondary">{person.role}</p>
 			<Stack direction="horizontal" gap={2} className="my-2">

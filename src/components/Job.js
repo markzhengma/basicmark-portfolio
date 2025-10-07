@@ -15,7 +15,7 @@ export const Job = ({ job }) => {
 				<Card.Title className="text-body-dark" style={{ fontSize: "16px" }}>
 					{job.role}
 				</Card.Title>
-				<ul className="fw-normal lh-lg text-body-secondary">
+				<ul className="fw-normal lh-lg text-body-secondary px-3">
 					{job.achievement.map((item, index) => (
 						<li key={`${job.id}-achieve${index}-${item}`}>{item}</li>
 					))}
@@ -23,8 +23,9 @@ export const Job = ({ job }) => {
 				<Link
 					href={job.projectLink}
 					className={job.projectLink !== "" ? "d-inline" : "d-none"}
+					style={{ textDecoration: "none", fontWeight: "500" }}
 				>
-					See Projects {new iconLibrary.arrowRight()}
+					相关项目 {new iconLibrary.arrowRight()}
 				</Link>
 			</Card.Body>
 			<Stack

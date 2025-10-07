@@ -7,10 +7,10 @@ import { Badge, Button, Card, Col, Stack, Row } from "react-bootstrap";
 
 export const Skill = () => {
 	return (
-		<Stack>
+		<Stack className="mb-5">
 			{skill.map((item) => (
-				<Card key={item.id} className="px-0 border-0">
-					<Card.Body>
+				<Card key={item.id} className="border-0">
+					<Card.Body className="px-0">
 						<Card.Title className="text-body-dark fs-5 fw-semibold">
 							{item.title}
 						</Card.Title>
