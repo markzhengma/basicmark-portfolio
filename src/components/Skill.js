@@ -38,10 +38,11 @@ export const Skill = () => {
 								<Image
 									key={`${item.id}-pic${index}-${link}`}
 									src={link}
-									width={260}
-									height={150}
+									width={240}
+									height={135}
 									alt="..."
 									className="rounded mx-1 object-fit-cover"
+									style={{ aspectRatio: "16/9" }}
 								/>
 							))}
 						</Stack>

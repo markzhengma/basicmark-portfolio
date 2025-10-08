@@ -9,6 +9,13 @@ const nextConfig = {
 				pathname: "/portfolio/**",
 				search: "",
 			},
+			{
+				protocol: "https",
+				hostname: "static.markzhengma.com",
+				port: "",
+				pathname: "/basicportfolio/**",
+				search: "",
+			},
 		],
 	},
 };

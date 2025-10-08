@@ -65,26 +65,21 @@ const job = [
 		],
 		projectLink: "",
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/hwis_1.JPG",
+			"https://static.markzhengma.com/basicportfolio/hwis_2.jpg",
 		],
 	},
 	{
 		id: "job2",
-		company: "哥伦比亚大学教师学院（纽约） ",
+		company: "哥伦比亚大学教育学院（纽约） ",
 		time: "2018",
 		role: "教育科技专员",
 		achievement: [
 			"为学校的教职工培训教学软件的使用方法、解决使用问题，如Turnitin, Canvas等。",
 			"在校内开展Workshop类型的宣讲活动，向教职工普及新教育技术的使用方法并收集使用反馈。",
 		],
-		projectLink: "/work",
-		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-		],
+		projectLink: "",
+		pics: ["https://static.markzhengma.com/basicportfolio/columbia_1.jpg"],
 	},
 	{
 		id: "job3",
@@ -95,11 +90,10 @@ const job = [
 			"参与开发The Creator’s Planetarium系列艺术展的数字艺术内容。",
 			"负责移动端web内容开发、基于Firebase的实时多人交互、以及Unity游戏的交互逻辑开发。",
 		],
-		projectLink: "/work#project1",
+		projectLink: "/work#project5",
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
+			"https://static.markzhengma.com/basicportfolio/planet_2.jpg",
 		],
 	},
 	{
@@ -113,11 +107,10 @@ const job = [
 			"负责酷我音乐小程序（微信、百度、头条）服务端开发。",
 			"负责酷我主播电台、腾讯音乐人平台项目的前端和服务端开发。",
 		],
-		projectLink: "/work#project3",
+		projectLink: "/work#project2",
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/kuwo_8.JPG",
+			"https://static.markzhengma.com/basicportfolio/kuwo_6.jpg",
 		],
 	},
 	{
@@ -129,11 +122,10 @@ const job = [
 			"负责经销商信息管理系统设计和搭建，以及门店微信小程序开发（详见项目列表）",
 			"实现了经销商各门店的企业信息同步，门店客户更便捷查询个人记录，拉动经销商营业额的增长。",
 		],
-		projectLink: "/work#project4",
+		projectLink: "/work#project3",
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/shell_1.JPG",
+			"https://static.markzhengma.com/basicportfolio/shell_3.PNG",
 		],
 	},
 	{
@@ -148,11 +140,12 @@ const job = [
 			"为公司在双减期间开拓了新的业务线，美术风格开始3D化，游戏技术团队开始从cocos向unity转型",
 			"实现了公司线上教育形式的改革：从看影片和大量重复带来的被动瞬时记忆，到动手探索解决问题感受科学现象的理解式学习。",
 		],
-		projectLink: "/work#project5",
+		projectLink: "/work#project4",
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/jlgl_2.JPG",
+			"https://static.markzhengma.com/basicportfolio/jlgl_1.JPG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_1.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_2.JPG",
 		],
 	},
 ];
@@ -213,9 +206,9 @@ const skill = [
 			},
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
 			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_10.PNG",
+			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
 		],
 	},
 	{
@@ -262,9 +255,8 @@ const skill = [
 			},
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/shell_3.PNG",
+			"https://static.markzhengma.com/basicportfolio/kuwo_12.png",
 		],
 	},
 	{
@@ -310,11 +302,7 @@ const skill = [
 				name: "Firebase",
 			},
 		],
-		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-		],
+		pics: ["https://static.eileen-yu.com/portfolio/su.jpg"],
 	},
 	{
 		id: "skill4",
@@ -340,9 +328,8 @@ const skill = [
 			},
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/shell_6.JPG",
+			"https://static.markzhengma.com/basicportfolio/kuwo_10.JPG",
 		],
 	},
 	{
@@ -372,35 +359,13 @@ const skill = [
 				name: "Lightroom",
 			},
 		],
-		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-		],
+		pics: ["https://static.eileen-yu.com/portfolio/su.jpg"],
 	},
 ];
 
 const project = [
 	{
 		id: "project1",
-		title: "Space Exploration Lab",
-		time: "2019",
-		role: "Unity工程师·Web全栈工程师",
-		brief: "通过Unity3D引擎、基于Firebase实时通信开发的数字艺术体验。",
-		desc:
-			"在纽约举办的宇宙探索主题艺术展Creator's Planetarium。在这个视觉艺术交互体验中，一个有着五颜六色星球的宇宙（Unity场景）被投射在了展厅的全部墙上，营造出置身宇宙中的感觉。参观者通过移动端网页设计自己的纸飞机，然后放飞在“宇宙”中。参观者能够通过手机来实时遥控驾驶纸飞机在“宇宙”中飞行，并与星球和其他纸飞机进行碰撞交互。",
-		techspecs: [
-			"基于Google Firebase的Web开发。包括用户信息收集、自定义图案绘制保存、利用Firebase实现实时遥控驾驶信号的发送。",
-			"在Unity场景中基于Firebase的事件创建“飞机”并实现单场景多人实时互动。",
-		],
-		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-		],
-	},
-	{
-		id: "project2",
 		title: "酷我主播电台&腾讯音乐人平台",
 		time: "2019-2020",
 		role: "Web前端工程师",
@@ -413,13 +378,12 @@ const project = [
 			"基于KoaJS+MongoDB的数据接口服务。",
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/kuwo_12.png",
+			"https://static.markzhengma.com/basicportfolio/kuwo_9.JPG",
 		],
 	},
 	{
-		id: "project3",
+		id: "project2",
 		title: "酷我音乐小程序",
 		time: "2019-2020",
 		role: "Web服务端工程师",
@@ -432,13 +396,12 @@ const project = [
 			"挂载Prometheus监控系统，实时监控服务的负载情况。",
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/kuwo_10.JPG",
+			"https://static.markzhengma.com/basicportfolio/kuwo_11.JPG",
 		],
 	},
 	{
-		id: "project4",
+		id: "project3",
 		title: "壳牌经销商信息管理系统",
 		time: "2019-2024",
 		role: "Web全栈工程师",
@@ -451,13 +414,15 @@ const project = [
 			"微信小程序：供门店客户和门店员工使用。微信登录权限校验（基于CRM维护的管理员信息）：客户查看养护记录和积分；员工进行养护信息的录入编辑。",
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
+			"https://static.markzhengma.com/basicportfolio/shell_6.JPG",
+			"https://static.markzhengma.com/basicportfolio/shell_7.JPG",
+			"https://static.markzhengma.com/basicportfolio/shell_3.PNG",
+			"https://static.markzhengma.com/basicportfolio/shell_4.JPG",
+			"https://static.markzhengma.com/basicportfolio/shell_5.JPG",
 		],
 	},
 	{
-		id: "project5",
+		id: "project4",
 		title: "叽里呱啦科学启蒙课",
 		time: "2021-2024",
 		role: "项目负责人",
@@ -471,9 +436,31 @@ const project = [
 			"生产阶段：扩大团队、搭建业务梯队，获取资源批量制作课程。在团队管理的同时，主导产品的教学内容规划、商业目标制定、预算计划和过程把控，推进制作。",
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/beijing.jpg",
-			"https://static.eileen-yu.com/portfolio/su.jpg",
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_12.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_1.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_8.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_13.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_11.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_10.PNG",
+		],
+	},
+	{
+		id: "project5",
+		title: "Space Exploration Lab",
+		time: "2019",
+		role: "Unity工程师·Web全栈工程师",
+		brief: "通过Unity3D引擎、基于Firebase实时通信开发的数字艺术体验。",
+		desc:
+			"在纽约举办的宇宙探索主题艺术展Creator's Planetarium。在这个视觉艺术交互体验中，一个有着五颜六色星球的宇宙（Unity场景）被投射在了展厅的全部墙上，营造出置身宇宙中的感觉。参观者通过移动端网页设计自己的纸飞机，然后放飞在“宇宙”中。参观者能够通过手机来实时遥控驾驶纸飞机在“宇宙”中飞行，并与星球和其他纸飞机进行碰撞交互。",
+		techspecs: [
+			"基于Google Firebase的Web开发。包括用户信息收集、自定义图案绘制保存、利用Firebase实现实时遥控驾驶信号的发送。",
+			"在Unity场景中基于Firebase的事件创建“飞机”并实现单场景多人实时互动。",
+		],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/planet_1.gif",
+			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
+			"https://static.markzhengma.com/basicportfolio/planet_2.jpg",
+			"https://static.markzhengma.com/basicportfolio/planet_3.jpg",
 		],
 	},
 ];

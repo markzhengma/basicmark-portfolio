@@ -78,19 +78,19 @@ export default function About() {
 					<div id="introduction"></div>
 					<Introduction />
 
-					<div id="work-experience"></div>
+					<div id="work-experience" className="mb-5"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">工作经历</p>
 					{jobOrderList.map((item) => (
 						<Job key={item.id} job={item} />
 					))}
-					<div id="school-studies"></div>
+					<div id="school-studies" className="mb-5"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						学位与专业培训
 					</p>
 					{studyOrderList.map((item) => (
 						<Study key={item.id} study={item} />
 					))}
-					<div id="technical-skills"></div>
+					<div id="technical-skills" className="mb-5"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">技术栈</p>
 					<Skill />
 				</Row>

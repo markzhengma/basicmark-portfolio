@@ -30,17 +30,21 @@ export const Job = ({ job }) => {
 			</Card.Body>
 			<Stack
 				direction="horizontal"
-				className="mx-2 mb-4"
-				style={{ width: "100%", overflow: "scroll" }}
+				className="mb-4 px-2"
+				style={{
+					width: "100%",
+					overflow: "scroll",
+				}}
 			>
 				{job.pics.map((link, index) => (
 					<Image
 						key={`${job.id}-pic${index}-${link}`}
 						src={link}
-						width={300}
+						width={320}
 						height={180}
 						alt="..."
 						className="rounded mx-1 object-fit-cover"
+						style={{ aspectRatio: "16/9" }}
 					/>
 				))}
 			</Stack>

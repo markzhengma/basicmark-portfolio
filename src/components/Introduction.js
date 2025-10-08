@@ -5,7 +5,7 @@ import { Button, Row, Stack } from "react-bootstrap";
 
 export const Introduction = () => {
 	return (
-		<Row className="my-5">
+		<Row className="mb-5">
 			<p
 				className="fw-bold lh-1 text-body-secondary my-4"
 				style={{ fontSize: "46px" }}
