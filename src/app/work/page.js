@@ -2,6 +2,8 @@ import { Project } from "@/components";
 import { project } from "@/resources/content";
 import { Navbar, Row, Col, Stack, Card } from "react-bootstrap";
 
+const projectOrderList = project.reverse();
+
 export default function Work() {
 	return (
 		<Row className="d-flex justify-content-center">
@@ -13,7 +15,9 @@ export default function Work() {
 					我的项目
 				</p>
 				<Stack gap={4}>
-					{project.map((item) => <Project key={item.id} project={item} />).reverse()}
+					{projectOrderList.map((item) => (
+						<Project key={item.id} project={item} />
+					))}
 				</Stack>
 			</Col>
 		</Row>

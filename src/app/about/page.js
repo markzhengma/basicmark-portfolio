@@ -4,6 +4,9 @@ import { Nav, Navbar, Row, Col, Badge, Stack, Button } from "react-bootstrap";
 import { Introduction, Job, Study, Skill } from "@/components";
 import { iconLibrary } from "@/resources/icon";
 
+const studyOrderList = study.reverse();
+const jobOrderList = job.reverse();
+
 export default function About() {
 	return (
 		<Row>
@@ -77,12 +80,16 @@ export default function About() {
 
 					<div id="work-experience"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">工作经历</p>
-					{job.map((item) => <Job key={item.id} job={item} />).reverse()}
+					{jobOrderList.map((item) => (
+						<Job key={item.id} job={item} />
+					))}
 					<div id="school-studies"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						学位与专业培训
 					</p>
-					{study.map((item) => <Study key={item.id} study={item} />).reverse()}
+					{studyOrderList.map((item) => (
+						<Study key={item.id} study={item} />
+					))}
 					<div id="technical-skills"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">技术栈</p>
 					<Skill />

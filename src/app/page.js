@@ -6,6 +6,8 @@ import Link from "next/link";
 import { brand, person, project } from "@/resources/content";
 import { iconLibrary } from "@/resources/icon";
 
+const projectOrderList = project.reverse();
+
 export default function Home() {
 	return (
 		<Container fluid>
@@ -43,7 +45,7 @@ export default function Home() {
 					</Button>
 					<Stack gap={4}>
 						<ControlledCarousel
-							displayItem={project.reverse().slice(0, 3)}
+							displayItem={projectOrderList.slice(0, 3)}
 							itemType={"work"}
 						/>
 					</Stack>
