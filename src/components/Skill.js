@@ -9,7 +9,7 @@ export const Skill = () => {
 	return (
 		<Stack className="mb-5">
 			{skill.map((item) => (
-				<Card key={item.id} className="border-0">
+				<Card key={item.id} className="border-0 mb-4">
 					<Card.Body className="px-0">
 						<Card.Title className="text-body-dark fs-5 fw-semibold">
 							{item.title}
@@ -31,7 +31,7 @@ export const Skill = () => {
 						</Stack>
 						<Stack
 							direction="horizontal"
-							className="mx-0 my-4"
+							className="mx-0 mt-4"
 							style={{ width: "100%", overflow: "scroll" }}
 						>
 							{item.pics.map((link, index) => (

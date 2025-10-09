@@ -28,13 +28,14 @@ export default function About() {
 					</Nav>
 				</Nav>
 			</Navbar>
-			<Col xs="4" md="5" lg="4">
+			<Col sm="4" md="5" lg="4" className="d-none d-sm-inline">
 				<Stack
 					className="sticky-top px-5"
 					gap={2}
 					style={{
 						paddingTop: "80px",
 						width: "fit-content",
+						height: "fit-content",
 						alignItems: "center",
 						justifySelf: "flex-end",
 					}}
@@ -65,7 +66,7 @@ export default function About() {
 					</Col>
 				</Stack>
 			</Col>
-			<Col xs="8" md="7" lg="8" className="px-5" style={{ maxWidth: "800px" }}>
+			<Col sm="8" md="7" lg="8" className="px-5" style={{ maxWidth: "800px" }}>
 				<Row
 					data-bs-spy="scroll"
 					data-bs-target="#navbar-example3"

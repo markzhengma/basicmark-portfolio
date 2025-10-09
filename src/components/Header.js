@@ -1,18 +1,16 @@
 "use client";
 import { iconLibrary } from "@/resources/icon";
-import { usePathname } from "next/navigation";
 import { person } from "@/resources/content";
 import { Nav, Navbar, Container, Button } from "react-bootstrap";
 
-const changeTheme = () => {
-	console.log("changing theme");
-};
-const changeLanguage = () => {
-	console.log("changing Language");
-};
-export const Header = () => {
-	const pathname = usePathname() ?? "";
+// const changeTheme = () => {
+// 	console.log("changing theme");
+// };
+// const changeLanguage = () => {
+// 	console.log("changing Language");
+// };
 
+export const Header = () => {
 	return (
 		<Navbar sticky="top" bg="light" data-bs-theme="light">
 			<Container fluid>
@@ -21,11 +19,11 @@ export const Header = () => {
 				</Navbar.Text>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">
-					<Button variant="light" onClick={() => changeTheme()}>
-						{new iconLibrary.rocket()}
+					<Button variant="light" disabled>
+						{new iconLibrary.nightmode()}
 					</Button>
-					<Button variant="light" onClick={() => changeLanguage()}>
-						{new iconLibrary.globe()}
+					<Button variant="light" disabled>
+						{new iconLibrary.language()}
 					</Button>
 				</Nav>
 			</Container>

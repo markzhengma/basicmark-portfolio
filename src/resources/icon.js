@@ -70,7 +70,15 @@ import { TbBrandCSharp, TbAugmentedReality } from "react-icons/tb";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 
-import { MdMovieEdit, MdMovieCreation, MdOutlinePerson } from "react-icons/md";
+import { IoLanguage } from "react-icons/io5";
+
+import {
+	MdMovieEdit,
+	MdMovieCreation,
+	MdOutlinePerson,
+	MdOutlineNightlight,
+	MdOutlineLightMode,
+} from "react-icons/md";
 
 export const iconLibrary = {
 	arrowUpRight: HiArrowUpRight,
@@ -133,4 +141,7 @@ export const iconLibrary = {
 	medit: MdMovieEdit,
 	mcreate: MdMovieCreation,
 	lightroom: SiAdobelightroom,
+	nightmode: MdOutlineNightlight,
+	lightmode: MdOutlineLightMode,
+	language: IoLanguage,
 };

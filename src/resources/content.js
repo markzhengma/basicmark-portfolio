@@ -6,13 +6,13 @@ const person = {
 	nickname: "Mark",
 	role: "全栈开发工程师",
 	role_eng: "Full-Stack Developer",
-	avatar: "https://static.eileen-yu.com/portfolio/person1.jpeg",
+	avatar: "https://static.markzhengma.com/basicportfolio/person1.jpeg",
 	email: "markzhengma@qq.com",
 	city: "上海",
 	city_eng: "Shanghai",
 	country: "中国",
 	country_eng: "China",
-	languages: ["英文·精通", "中文·母语"],
+	languages: ["英文·流利", "中文·母语"],
 	languages_eng: ["English", "Mandarin"],
 	description:
 		"我是一位全栈开发工程师，目前居住在中国上海。我热衷于项目从0到1的落地，而且享受通过技术来搭建设计与实现之间的桥梁。我的学习和工作主要聚焦于科技与教育领域，但又覆盖了不同的行业和岗位类型。这些经历给我带来了丰富的视角来思考和创造。",
@@ -49,7 +49,7 @@ const brand = {
 		"我是Mark，一名全栈Web工程师。也是一名游戏设计开发者、产品经理，同时也是一位教师和自媒体工作者。很高兴你来到这里！",
 	selfintro_eng:
 		"I'm Mark, a full-stack developer, product manager, game designer, and a teacher. It's good to see you!",
-	end: "寻求合作？那就请直接联系我吧！",
+	end: "寻求合作——请直接联系我！",
 	end_eng: "Looking for collaborations? Let's get in touch!",
 };
 
@@ -206,7 +206,8 @@ const skill = [
 			},
 		],
 		pics: [
-			"https://static.eileen-yu.com/portfolio/hackathon.jpg",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_2.JPG",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_7.jpg",
 			"https://static.markzhengma.com/basicportfolio/ggsteam_10.PNG",
 			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
 		],
@@ -256,7 +257,7 @@ const skill = [
 		],
 		pics: [
 			"https://static.markzhengma.com/basicportfolio/shell_3.PNG",
-			"https://static.markzhengma.com/basicportfolio/kuwo_12.png",
+			"https://static.markzhengma.com/basicportfolio/kuwo_9.JPG",
 		],
 	},
 	{
@@ -302,7 +303,7 @@ const skill = [
 				name: "Firebase",
 			},
 		],
-		pics: ["https://static.eileen-yu.com/portfolio/su.jpg"],
+		pics: ["https://static.markzhengma.com/basicportfolio/mithackathon_4.jpg"],
 	},
 	{
 		id: "skill4",
@@ -336,7 +337,7 @@ const skill = [
 		id: "skill5",
 		title: "影像内容创作",
 		desc:
-			"拍摄照片、影片，基于Lightroom进行照片精修，通过Final Cut Pro和剪映进行视频制作。",
+			"拍摄照片、影片，基于Lightroom进行照片精修，通过Final Cut Pro和剪映进行视频制作。欢迎关注我的小红书和Youtube账号！",
 		tools: [
 			{
 				icon: iconLibrary.camera,
@@ -359,7 +360,12 @@ const skill = [
 				name: "Lightroom",
 			},
 		],
-		pics: ["https://static.eileen-yu.com/portfolio/su.jpg"],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/gallery_1.jpg",
+			"https://static.markzhengma.com/basicportfolio/gallery_2.jpg",
+			"https://static.markzhengma.com/basicportfolio/gallery_3.jpg",
+			"https://static.markzhengma.com/basicportfolio/gallery_4.jpg",
+		],
 	},
 ];
 

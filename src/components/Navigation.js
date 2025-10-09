@@ -38,6 +38,14 @@ export const Navigation = () => {
 					>
 						{new iconLibrary.book()} 项目
 					</Button>
+					<Button
+						variant="light"
+						href="/"
+						disabled
+						className="rounded-pill fw-semibold"
+					>
+						{new iconLibrary.gallery()} 影集
+					</Button>
 				</Nav>
 			</Navbar>
 		</Row>

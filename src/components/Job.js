@@ -6,13 +6,13 @@ import { Button, Card, Col, Stack } from "react-bootstrap";
 
 export const Job = ({ job }) => {
 	return (
-		<Card className="px-0 border-0">
-			<Card.Header className="d-flex justify-content-between">
-				<span className="fw-medium lh-base text-body-dark">{job.company}</span>
-				<span className="fw-medium lh-base text-body-secondary">{job.time}</span>
+		<Card className="px-0 border-0 mb-5 ">
+			<Card.Header className="d-flex justify-content-between align-items-center rounded-0 fw-medium lh-base bg-transparent pb-0">
+				<span className="text-body-dark fs-5">{job.company}</span>
+				<span className="text-body-secondary">{job.time}</span>
 			</Card.Header>
-			<Card.Body>
-				<Card.Title className="text-body-dark" style={{ fontSize: "16px" }}>
+			<Card.Body className="pt-1">
+				<Card.Title className="text-body-dark mb-3" style={{ fontSize: "16px" }}>
 					{job.role}
 				</Card.Title>
 				<ul className="fw-normal lh-lg text-body-secondary px-3">
@@ -20,17 +20,17 @@ export const Job = ({ job }) => {
 						<li key={`${job.id}-achieve${index}-${item}`}>{item}</li>
 					))}
 				</ul>
-				<Link
+				<Button
 					href={job.projectLink}
+					variant="outline-secondary"
 					className={job.projectLink !== "" ? "d-inline" : "d-none"}
-					style={{ textDecoration: "none", fontWeight: "500" }}
 				>
 					相关项目 {new iconLibrary.arrowRight()}
-				</Link>
+				</Button>
 			</Card.Body>
 			<Stack
 				direction="horizontal"
-				className="mb-4 px-2"
+				className="px-2"
 				style={{
 					width: "100%",
 					overflow: "scroll",
