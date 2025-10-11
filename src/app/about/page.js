@@ -47,6 +47,7 @@ export default function About() {
 						className="rounded-circle shadow p-1 bg-body-tertiary"
 						style={{ objectFit: "cover" }}
 						alt="Head Image"
+						priority
 					/>
 					<Col>
 						{new iconLibrary.globe()}

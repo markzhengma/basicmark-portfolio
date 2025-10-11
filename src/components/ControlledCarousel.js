@@ -27,6 +27,7 @@ export const ControlledCarousel = ({ displayItem, itemType }) => {
 							fill
 							alt="Project Cover"
 							style={{ objectFit: "cover", height: "100%" }}
+							priority
 						/>
 						{/* <Carousel.Caption>
 							<p className="fs-4 fw-semibold mb-5">{displayItem[index].title}</p>
