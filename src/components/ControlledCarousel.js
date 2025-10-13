@@ -24,6 +24,8 @@ export const ControlledCarousel = ({ displayItem, itemType }) => {
 					<Carousel.Item key={item.id} style={{ aspectRatio: "4/3" }}>
 						<Image
 							src={item.pics[0]}
+							placeholder="blur"
+							blurDataURL="/images/placeholder.png"
 							fill
 							alt="Project Cover"
 							style={{ objectFit: "cover", height: "100%" }}

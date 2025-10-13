@@ -6,7 +6,7 @@ import { iconLibrary } from "@/resources/icon";
 
 export default function About() {
 	return (
-		<Row>
+		<Row className="w-100">
 			<Navbar
 				className="fixed-top h-100 d-lg-flex d-none"
 				style={{ width: "fit-content" }}
@@ -38,12 +38,15 @@ export default function About() {
 						height: "fit-content",
 						alignItems: "center",
 						justifySelf: "flex-end",
+						zIndex: "1",
 					}}
 				>
 					<Image
 						src={person.avatar}
 						width={160}
 						height={160}
+						placeholder="blur"
+						blurDataURL="/images/placeholder.png"
 						className="rounded-circle shadow p-1 bg-body-tertiary"
 						style={{ objectFit: "cover" }}
 						alt="Head Image"
@@ -79,9 +82,11 @@ export default function About() {
 
 					<div id="work-experience" className="mb-5"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">工作经历</p>
-					{job.map((item) => (
-						<Job key={item.id} job={item} />
-					))}
+					<Stack className="mb-5 px-0">
+						{job.map((item) => (
+							<Job key={item.id} job={item} />
+						))}
+					</Stack>
 					<div id="school-studies" className="mb-5"></div>
 					<p className="fs-1 fw-semibold lh-lg text-body-secondary mt-5">
 						学位与专业培训

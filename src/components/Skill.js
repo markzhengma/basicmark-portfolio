@@ -40,6 +40,8 @@ export const Skill = () => {
 									src={link}
 									width={240}
 									height={135}
+									placeholder="blur"
+									blurDataURL="/images/placeholder.png"
 									alt="..."
 									className="rounded mx-1 object-fit-cover"
 									style={{ aspectRatio: "16/9" }}

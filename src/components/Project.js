@@ -19,6 +19,8 @@ export const Project = ({ project }) => {
 						<Image
 							src={pic}
 							alt="Project Cover"
+							placeholder="blur"
+							blurDataURL="/images/placeholder.png"
 							fill
 							style={{ objectFit: "cover", height: "100%" }}
 						/>

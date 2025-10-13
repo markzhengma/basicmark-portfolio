@@ -4,7 +4,7 @@ import { Navbar, Row, Col, Stack, Card } from "react-bootstrap";
 
 export default function Work() {
 	return (
-		<Row className="d-flex justify-content-center">
+		<Row className="w-100 d-flex justify-content-center">
 			<Col xs="10" md="8" lg="6" className="d-flex flex-column align-items-center">
 				<p
 					className="fw-semibold lh-lg text-body-secondary mt-5 mx-auto"
