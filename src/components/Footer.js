@@ -9,7 +9,7 @@ export const Footer = () => {
 		<Navbar className="bg-body-tertiary">
 			<Container fluid className="px-3">
 				<Navbar.Text>
-					© {currentYear} / {person.nickname} {person.name_eng} / Build with Heart
+					© {currentYear} / {person.nickname} {person.name_eng} / Build with ❤️
 				</Navbar.Text>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">

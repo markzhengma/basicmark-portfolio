@@ -9,18 +9,19 @@ export const Project = ({ project }) => {
 			<div className="pt-5" id={project.id} />
 			<Carousel
 				fade
+				pause="hover"
+				className="shadow bg-body-tertiary"
 				style={{ width: "100%", borderRadius: "6px", overflow: "hidden" }}
 			>
 				{project.pics.map((pic, int) => (
 					<Carousel.Item
 						key={`${project.id}-pic${int}`}
+						className="bg-light"
 						style={{ aspectRatio: "16/9" }}
 					>
 						<Image
 							src={pic}
 							alt="Project Cover"
-							placeholder="blur"
-							blurDataURL="/images/placeholder.png"
 							fill
 							style={{ objectFit: "cover", height: "100%" }}
 						/>

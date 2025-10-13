@@ -45,9 +45,7 @@ export default function About() {
 						src={person.avatar}
 						width={160}
 						height={160}
-						placeholder="blur"
-						blurDataURL="/images/placeholder.png"
-						className="rounded-circle shadow p-1 bg-body-tertiary"
+						className="rounded-circle shadow p-1 bg-body-tertiary bg-light"
 						style={{ objectFit: "cover" }}
 						alt="Head Image"
 						priority

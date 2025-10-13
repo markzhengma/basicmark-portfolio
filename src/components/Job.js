@@ -42,10 +42,8 @@ export const Job = ({ job }) => {
 						src={link}
 						width={320}
 						height={180}
-						placeholder="blur"
-						blurDataURL="/images/placeholder.png"
 						alt="..."
-						className="rounded mx-1 object-fit-cover"
+						className="rounded mx-1 object-fit-cover bg-light"
 						style={{ aspectRatio: "16/9" }}
 					/>
 				))}

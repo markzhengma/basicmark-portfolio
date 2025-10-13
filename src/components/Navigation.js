@@ -17,7 +17,7 @@ export const Navigation = () => {
 					<Button
 						variant="light"
 						href="/"
-						className="rounded-circle fw-semibold"
+						className="rounded-circle fw-semibold py-1 mt-1"
 						active={pathname === "/"}
 					>
 						{new iconLibrary.home()}
@@ -25,7 +25,7 @@ export const Navigation = () => {
 					<Button
 						variant="light"
 						href="/about"
-						className="rounded-pill fw-semibold"
+						className="rounded-pill fw-semibold py-1 mt-1"
 						active={pathname === "/about"}
 					>
 						{new iconLibrary.person()} 关于
@@ -33,7 +33,7 @@ export const Navigation = () => {
 					<Button
 						variant="light"
 						href="/work"
-						className="rounded-pill fw-semibold"
+						className="rounded-pill fw-semibold py-1 mt-1"
 						active={pathname === "/work"}
 					>
 						{new iconLibrary.book()} 项目
@@ -42,7 +42,7 @@ export const Navigation = () => {
 						variant="light"
 						href="/"
 						disabled
-						className="rounded-pill fw-semibold"
+						className="rounded-pill fw-semibold py-1 mt-1"
 					>
 						{new iconLibrary.gallery()} 影集
 					</Button>

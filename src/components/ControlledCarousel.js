@@ -18,22 +18,19 @@ export const ControlledCarousel = ({ displayItem, itemType }) => {
 				fade
 				activeIndex={index}
 				onSelect={handleSelect}
+				className="shadow bg-body-tertiary"
+				pause="hover"
 				style={{ width: "100%", borderRadius: "6px", overflow: "hidden" }}
 			>
 				{displayItem.map((item) => (
 					<Carousel.Item key={item.id} style={{ aspectRatio: "4/3" }}>
 						<Image
 							src={item.pics[0]}
-							placeholder="blur"
-							blurDataURL="/images/placeholder.png"
 							fill
 							alt="Project Cover"
 							style={{ objectFit: "cover", height: "100%" }}
 							priority
 						/>
-						{/* <Carousel.Caption>
-							<p className="fs-4 fw-semibold mb-5">{displayItem[index].title}</p>
-						</Carousel.Caption> */}
 					</Carousel.Item>
 				))}
 			</Carousel>
