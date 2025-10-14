@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "Mark Zheng Ma's Portfolio",
+	title: "作品集-Mark Zheng Ma",
 	description: "Mark's personal website.",
 };
 

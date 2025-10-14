@@ -9,15 +9,19 @@ export const Footer = () => {
 		<Navbar className="bg-body-tertiary">
 			<Container fluid className="px-3">
 				<Navbar.Text>
-					© {currentYear} / {person.nickname} {person.name_eng} / Build with ❤️
+					<span>
+						© {currentYear} / {person.nickname} {person.name_eng}
+					</span>
+					<span className="d-none d-sm-inline"> / Build with ❤️</span>
 				</Navbar.Text>
+
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">
 					{social.map((item) => (
 						<Nav.Link
 							key={item.name}
 							href={item.link}
-							className="btn btn-light fs-5"
+							className="btn btn-light fs-5 pt-0 pb-1"
 							target="_blank"
 							rel="noopener noreferrer"
 							active={false}

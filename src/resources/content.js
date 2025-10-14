@@ -70,7 +70,7 @@ const job = [
 		pics: [
 			"https://static.markzhengma.com/basicportfolio/jlgl_2.JPG",
 			"https://static.markzhengma.com/basicportfolio/jlgl_1.JPG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_1.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_1.png",
 			"https://static.markzhengma.com/basicportfolio/ggsteam_2.JPG",
 		],
 	},
@@ -208,7 +208,7 @@ const skill = [
 		pics: [
 			"https://static.markzhengma.com/basicportfolio/mithackathon_2.JPG",
 			"https://static.markzhengma.com/basicportfolio/mithackathon_7.jpg",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_10.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_10.png",
 			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
 		],
 	},
@@ -404,12 +404,13 @@ const project = [
 			"生产阶段：扩大团队、搭建业务梯队，获取资源批量制作课程。在团队管理的同时，主导产品的教学内容规划、商业目标制定、预算计划和过程把控，推进制作。",
 		],
 		pics: [
-			"https://static.markzhengma.com/basicportfolio/ggsteam_12.PNG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_1.PNG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_8.PNG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_13.PNG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_11.PNG",
-			"https://static.markzhengma.com/basicportfolio/ggsteam_10.PNG",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_13.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_1.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_8.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_11.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_12.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_10.png",
+			"https://static.markzhengma.com/basicportfolio/ggsteam_15.png",
 		],
 	},
 	{

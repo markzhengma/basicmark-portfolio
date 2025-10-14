@@ -54,6 +54,15 @@ export default function Home() {
 					</Button>
 				</Col>
 			</Row>
+			<a
+				target="_blank"
+				rel="noopener noreferrer"
+				href="http://beian.miit.gov.cn"
+				className="text-decoration-none text-body-tertiary"
+				style={{ fontSize: "10px" }}
+			>
+				沪ICP备2024096456号-2
+			</a>
 		</Container>
 	);
 }

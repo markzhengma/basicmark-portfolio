@@ -27,6 +27,7 @@ export const ControlledCarousel = ({ displayItem, itemType }) => {
 						<Image
 							src={item.pics[0]}
 							fill
+							sizes="100"
 							alt="Project Cover"
 							style={{ objectFit: "cover", height: "100%" }}
 							priority
