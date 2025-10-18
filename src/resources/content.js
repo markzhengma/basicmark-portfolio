@@ -163,7 +163,7 @@ const study = [
 		school: "General Assembly（纽约）",
 		time: "2017",
 		department: "",
-		program: "全栈Web开发",
+		program: "全栈Web开发Bootcamp",
 	},
 	{
 		id: "study3",
