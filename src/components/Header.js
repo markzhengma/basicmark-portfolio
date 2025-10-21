@@ -20,9 +20,7 @@ export const Header = () => {
 				</Navbar.Text>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Nav className="justify-content-end">
-					<Button variant="light" disabled>
-						{new iconLibrary.nightmode()}
-					</Button>
+					<Button variant="light">{new iconLibrary.nightmode()}</Button>
 					<Button variant="light" disabled>
 						{new iconLibrary.language()}
 					</Button>

@@ -7,7 +7,7 @@ export const Navigation = () => {
 	const pathname = usePathname() ?? "";
 
 	return (
-		<Row className="sticky-top pt-1 mx-auto w-auto">
+		<Row className="sticky-top pt-1 mx-auto" style={{ width: "fit-content" }}>
 			<Navbar bg="light" className="mx-auto p-1 mt-1 rounded-pill w-auto">
 				<Nav>
 					<Button
