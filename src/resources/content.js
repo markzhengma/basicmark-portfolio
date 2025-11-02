@@ -388,6 +388,8 @@ const project = [
 			"https://static.markzhengma.com/basicportfolio/planet_4.jpg",
 			"https://static.markzhengma.com/basicportfolio/planet_2.jpg",
 		],
+		video:
+			"https://static.markzhengma.com/basicportfolio/TheCreatorsPlanetarium.mp4",
 	},
 	{
 		id: "project2",
@@ -412,6 +414,7 @@ const project = [
 			"https://static.markzhengma.com/basicportfolio/ggsteam_10.png",
 			"https://static.markzhengma.com/basicportfolio/ggsteam_15.png",
 		],
+		video: "https://static.markzhengma.com/basicportfolio/ggsteam.mov",
 	},
 	{
 		id: "project3",
@@ -433,6 +436,7 @@ const project = [
 			"https://static.markzhengma.com/basicportfolio/shell_4.JPG",
 			"https://static.markzhengma.com/basicportfolio/shell_5.JPG",
 		],
+		video: "https://static.markzhengma.com/basicportfolio/ShellWechatApp.MOV",
 	},
 	{
 		id: "project4",
@@ -469,6 +473,75 @@ const project = [
 			"https://static.markzhengma.com/basicportfolio/kuwo_12.png",
 			"https://static.markzhengma.com/basicportfolio/kuwo_9.JPG",
 		],
+	},
+	{
+		id: "project6",
+		title: "We Bubble Two: A Coding Game",
+		time: "2019",
+		role: "教育游戏设计师 & Unity工程师",
+		brief:
+			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
+		desc:
+			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
+		techspecs: [
+			"研究生学习项目作品。",
+			"独立进行教育价值论述及游戏设计，基于Unity 3D开发。",
+			"用非代码、非教学的方式，来理解编程、培养计算思维的游戏。",
+		],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo1.jpg",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo2.jpg",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo3.jpg",
+		],
+		video: "https://static.markzhengma.com/basicportfolio/WeBubbleTwo.mp4",
+	},
+	{
+		id: "project7",
+		title: "Escape The Witch's Grotto",
+		time: "2019",
+		role: "Unity工程师",
+		brief:
+			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
+		desc:
+			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
+		techspecs: [
+			"2019 MIT Reality Virtually Hackathon项目，临时组建的5人团队完成。",
+			"VR解谜游戏。基于Unity 3D，HTC Vive SDK进行开发。",
+		],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.jpg",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_4.jpg",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_1.JPG",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_2.JPG",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_6.JPG",
+		],
+		video:
+			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.mp4",
+	},
+	{
+		id: "project8",
+		title: "Stay With Me: An SEL Game",
+		time: "2018",
+		role: "教育游戏设计师 & Unity工程师",
+		brief:
+			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
+		desc:
+			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
+		techspecs: ["研究生学习项目作品。", "基于社会情感教学理论的游戏设计。"],
+		pics: ["https://static.markzhengma.com/basicportfolio/StayWithMe.jpg"],
+		video: "https://static.markzhengma.com/basicportfolio/StayWithMe.mp4",
+	},
+	{
+		id: "project9",
+		title: "Geek Olympics",
+		time: "2017",
+		role: "教育游戏设计师",
+		brief:
+			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
+		desc:
+			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
+		pics: ["https://static.markzhengma.com/basicportfolio/GeekOlympics.jpg"],
+		video: "https://static.markzhengma.com/basicportfolio/GeekOlympics.mp4",
 	},
 ];
 

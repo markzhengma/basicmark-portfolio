@@ -1,10 +1,12 @@
 "use client";
 import { iconLibrary } from "@/resources/icon";
 import { usePathname } from "next/navigation";
-import { Nav, Navbar, Container, Button, Row } from "react-bootstrap";
+import { useState } from "react";
+import { Nav, Navbar, Container, Button, Row, Overlay } from "react-bootstrap";
 
 export const Navigation = () => {
 	const pathname = usePathname() ?? "";
+	const [showOverlay, setShowOverlay] = useState(false);
 
 	return (
 		<Row className="sticky-top pt-1 mx-auto" style={{ width: "fit-content" }}>
@@ -39,7 +41,7 @@ export const Navigation = () => {
 						variant="light"
 						href="/"
 						disabled
-						className="rounded-pill fw-semibold py-1"
+						className="rounded-pill fw-semibold py-1 text-secondary"
 					>
 						{new iconLibrary.gallery()}{" "}
 						<span className="d-none d-sm-inline">影集</span>

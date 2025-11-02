@@ -66,7 +66,11 @@ import {
 
 import { DiJavascript } from "react-icons/di";
 
-import { TbBrandCSharp, TbAugmentedReality } from "react-icons/tb";
+import {
+	TbBrandCSharp,
+	TbAugmentedReality,
+	TbPlayerPlayFilled,
+} from "react-icons/tb";
 
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -144,4 +148,5 @@ export const iconLibrary = {
 	nightmode: MdOutlineNightlight,
 	lightmode: MdOutlineLightMode,
 	language: IoLanguage,
+	videoPlayer: TbPlayerPlayFilled,
 };
