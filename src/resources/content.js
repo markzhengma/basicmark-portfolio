@@ -489,9 +489,9 @@ const project = [
 			"用非代码、非教学的方式，来理解编程、培养计算思维的游戏。",
 		],
 		pics: [
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo1.jpg",
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo2.jpg",
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo3.jpg",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo1.png",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo2.png",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo3.png",
 		],
 		video: "https://static.markzhengma.com/basicportfolio/WeBubbleTwo.mp4",
 	},
