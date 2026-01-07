@@ -4,8 +4,8 @@ const person = {
 	name: "马铮",
 	name_eng: "Zheng Ma",
 	nickname: "Mark",
-	role: "全栈开发工程师",
-	role_eng: "Full-Stack Developer",
+	role: "游戏设计师",
+	role_eng: "Game Designer",
 	avatar: "https://static.markzhengma.com/basicportfolio/person1.jpeg",
 	email: "markzhengma@qq.com",
 	city: "上海",
@@ -15,9 +15,9 @@ const person = {
 	languages: ["英文·流利", "中文·母语"],
 	languages_eng: ["English", "Mandarin"],
 	description:
-		"我是一位全栈开发工程师，目前居住在中国上海。我热衷于项目从0到1的落地，而且享受通过技术来搭建设计与实现之间的桥梁。我的学习和工作主要聚焦于科技与教育领域，但又覆盖了不同的行业和岗位类型。这些经历给我带来了丰富的视角来思考和创造。",
+		"我是一位游戏设计师，目前居住在中国上海。我热衷于项目从0到1的落地，而且享受通过技术来搭建设计与实现之间的桥梁。我的学习和工作主要聚焦于科技与教育领域，但又覆盖了不同的行业和岗位类型。这些经历给我带来了丰富的视角来思考和创造。",
 	description_eng:
-		"I am a Shanghai-based full-stack web developer, with passions about landing projects 0-1, using technologies to close the gaps between designs and realizations. My job and school study focus on technology and education, covering different industries and roles. I am always thankful for the various perspectives I built throughout these experiences.",
+		"I am a Shanghai-based Game Designer, with passions about landing projects 0-1, using technologies to close the gaps between designs and realizations. My job and school study focus on technology and education, covering different industries and roles. I am always thankful for the various perspectives I built throughout these experiences.",
 };
 
 const social = [
@@ -46,9 +46,9 @@ const social = [
 const brand = {
 	headline: "用技术 让更多美好的设计成为现实。",
 	selfintro:
-		"我是Mark，一名全栈Web工程师。也是一名游戏设计开发者、产品经理，同时也是一位教师和自媒体工作者。很高兴你来到这里！",
+		"我是Mark，一名游戏设计师。也是一名教师、全栈Web工程师，同时也是一位产品经理和自媒体工作者。很高兴你来到这里！",
 	selfintro_eng:
-		"I'm Mark, a full-stack developer, product manager, game designer, and a teacher. It's good to see you!",
+		"I'm Mark, a game designer, a teacher, a full-stack developer, a product manager and an influencer. It's good to see you!",
 	end: "寻求合作——请直接联系我！",
 	end_eng: "Looking for collaborations? Let's get in touch!",
 };
@@ -418,6 +418,75 @@ const project = [
 	},
 	{
 		id: "project3",
+		title: "We Bubble Two: A Coding Game",
+		time: "2019",
+		role: "教育游戏设计师 & Unity工程师",
+		brief:
+			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
+		desc:
+			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
+		techspecs: [
+			"独立进行教育价值论述及游戏设计，基于Unity 3D开发。",
+			"学习计算机编程，最难的不是代码，而是掌握计算思维。",
+			"这个游戏用非代码、非教学的方式，来理解编程、培养计算思维。",
+		],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo1.png",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo2.png",
+			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo3.png",
+		],
+		video: "https://static.markzhengma.com/basicportfolio/WeBubbleTwo.mp4",
+	},
+	{
+		id: "project4",
+		title: "Escape The Witch's Grotto",
+		time: "2019",
+		role: "Unity工程师",
+		brief:
+			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
+		desc:
+			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
+		techspecs: [
+			"MIT Reality Virtually Hackathon项目，临时组建的5人团队在48小时内完成。",
+			"VR解谜游戏。基于Unity 3D，HTC Vive SDK进行开发。",
+		],
+		pics: [
+			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.jpg",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_4.jpg",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_1.JPG",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_2.JPG",
+			"https://static.markzhengma.com/basicportfolio/mithackathon_6.JPG",
+		],
+		video:
+			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.mp4",
+	},
+	{
+		id: "project5",
+		title: "Stay With Me: An SEL Game",
+		time: "2018",
+		role: "教育游戏设计师 & Unity工程师",
+		brief:
+			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
+		desc:
+			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
+		techspecs: ["研究生学习项目作品。", "基于社会情感教学理论的游戏设计。"],
+		pics: ["https://static.markzhengma.com/basicportfolio/StayWithMe.jpg"],
+		video: "https://static.markzhengma.com/basicportfolio/StayWithMe.mp4",
+	},
+	{
+		id: "project6",
+		title: "Geek Olympics",
+		time: "2017",
+		role: "教育游戏设计师",
+		brief:
+			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
+		desc:
+			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
+		pics: ["https://static.markzhengma.com/basicportfolio/GeekOlympics.jpg"],
+		video: "https://static.markzhengma.com/basicportfolio/GeekOlympics.mp4",
+	},
+	{
+		id: "project7",
 		title: "壳牌经销商信息管理系统",
 		time: "2019-2024",
 		role: "Web全栈工程师",
@@ -439,7 +508,7 @@ const project = [
 		video: "https://static.markzhengma.com/basicportfolio/ShellWechatApp.MOV",
 	},
 	{
-		id: "project4",
+		id: "project8",
 		title: "酷我音乐小程序",
 		time: "2019-2020",
 		role: "Web服务端工程师",
@@ -457,7 +526,7 @@ const project = [
 		],
 	},
 	{
-		id: "project5",
+		id: "project9",
 		title: "酷我主播电台&腾讯音乐人平台",
 		time: "2019-2020",
 		role: "Web前端工程师",
@@ -473,75 +542,6 @@ const project = [
 			"https://static.markzhengma.com/basicportfolio/kuwo_12.png",
 			"https://static.markzhengma.com/basicportfolio/kuwo_9.JPG",
 		],
-	},
-	{
-		id: "project6",
-		title: "We Bubble Two: A Coding Game",
-		time: "2019",
-		role: "教育游戏设计师 & Unity工程师",
-		brief:
-			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
-		desc:
-			"制作奶茶完成订单，与你的对手比拼。通过对于程序终端的操作和修改，来增强自己或者给对手捣乱！",
-		techspecs: [
-			"研究生学习项目作品。",
-			"独立进行教育价值论述及游戏设计，基于Unity 3D开发。",
-			"用非代码、非教学的方式，来理解编程、培养计算思维的游戏。",
-		],
-		pics: [
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo1.png",
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo2.png",
-			"https://static.markzhengma.com/basicportfolio/WeBubbleTwo3.png",
-		],
-		video: "https://static.markzhengma.com/basicportfolio/WeBubbleTwo.mp4",
-	},
-	{
-		id: "project7",
-		title: "Escape The Witch's Grotto",
-		time: "2019",
-		role: "Unity工程师",
-		brief:
-			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
-		desc:
-			"被困在了女巫的小屋中：根据魔药书上的线索提示，在小屋里找寻材料，配制魔药，最终逃离密室！",
-		techspecs: [
-			"2019 MIT Reality Virtually Hackathon项目，临时组建的5人团队完成。",
-			"VR解谜游戏。基于Unity 3D，HTC Vive SDK进行开发。",
-		],
-		pics: [
-			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.jpg",
-			"https://static.markzhengma.com/basicportfolio/mithackathon_4.jpg",
-			"https://static.markzhengma.com/basicportfolio/mithackathon_1.JPG",
-			"https://static.markzhengma.com/basicportfolio/mithackathon_2.JPG",
-			"https://static.markzhengma.com/basicportfolio/mithackathon_6.JPG",
-		],
-		video:
-			"https://static.markzhengma.com/basicportfolio/EscapeTheWitchsGrotto.mp4",
-	},
-	{
-		id: "project8",
-		title: "Stay With Me: An SEL Game",
-		time: "2018",
-		role: "教育游戏设计师 & Unity工程师",
-		brief:
-			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
-		desc:
-			"AVG类型解谜游戏，根据对话和物品线索揭开校园暴力隐藏的真相，解救你的朋友。",
-		techspecs: ["研究生学习项目作品。", "基于社会情感教学理论的游戏设计。"],
-		pics: ["https://static.markzhengma.com/basicportfolio/StayWithMe.jpg"],
-		video: "https://static.markzhengma.com/basicportfolio/StayWithMe.mp4",
-	},
-	{
-		id: "project9",
-		title: "Geek Olympics",
-		time: "2017",
-		role: "教育游戏设计师",
-		brief:
-			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
-		desc:
-			"聚会类型桌游。将卡牌上的条件和指令构筑成计算机使用的 if statement，指向符合条件的你的伙伴，让他们完成指令上的挑战吧！",
-		pics: ["https://static.markzhengma.com/basicportfolio/GeekOlympics.jpg"],
-		video: "https://static.markzhengma.com/basicportfolio/GeekOlympics.mp4",
 	},
 ];
 

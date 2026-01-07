@@ -9,7 +9,7 @@ export const Job = ({ job }) => {
 		<Card className="px-0 border-0 mb-5 ">
 			<Card.Header className="d-flex justify-content-between align-items-center rounded-0 fw-medium lh-base bg-transparent pb-0">
 				<span className="text-body-dark fs-4">{job.company}</span>
-				<span className="text-body-secondary">{job.time}</span>
+				{/* <span className="text-body-secondary">{job.time}</span> */}
 			</Card.Header>
 			<Card.Body className="pt-1">
 				<Card.Title className="text-body-dark mb-3" style={{ fontSize: "16px" }}>
